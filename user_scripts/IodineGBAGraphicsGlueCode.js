@@ -76,7 +76,6 @@ GlueCodeGfx.prototype.setSmoothScaling = function (doSmoothing) {
             "image-rendering: " + ((doSmoothing) ? "optimizeQuality" : "-moz-crisp-edges") + ";" +
             "-ms-interpolation-mode: " + ((doSmoothing) ? "bicubic" : "nearest-neighbor") + ";");
         this.drawContextOnscreen.mozImageSmoothingEnabled = doSmoothing;
-        this.drawContextOnscreen.webkitImageSmoothingEnabled = doSmoothing;
         this.drawContextOnscreen.imageSmoothingEnabled = doSmoothing;
     }
 }
