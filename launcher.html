@@ -7,6 +7,20 @@
             <link href="css/bootstrap-theme.min.css" rel="stylesheet">
             <link href="css/bootstrap.css" rel="stylesheet">
             <link href="css/bootstrap.min.css" rel="stylesheet">
+            <style>
+                .container-main {
+                    margin-top: 75px;
+                }
+
+                .container-canvas {
+                    margin: 0 auto;
+                    width: 800px;
+                }
+
+                canvas {
+                    border: 1px solid #333;
+                }
+            </style>
             <!--Required Scripts-->
             <script src="IodineGBA/includes/TypedArrayShim.js"></script>
             <script src="IodineGBA/core/Cartridge.js"></script>
@@ -68,8 +82,8 @@
             <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container">
-            <canvas class="container" id="emulator_target" width="240px" height="160px"></canvas>
+        <div class="container container-main">
+            <canvas class="container" id="emulator_target" width="800px" height="600px"></canvas>
             <span id="tempMessage"></span>
         </div>
     </body>
