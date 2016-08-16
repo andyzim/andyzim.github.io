@@ -1,5 +1,5 @@
 #PLAY GBA ONLINE
 
-# Credits:
-https://jsemu2.github.io/gba
-https://github.com/taisel/IodineGBA
+# credits:
+![GBA repo1](https://jsemu2.github.io/gba)
+![GBA repo2](https://github.com/taisel/IodineGBA)
